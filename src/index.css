@@ -82,3 +82,14 @@ button:hover {
   max-width: 33.333%;
   background-color: var(--dark);
 }
+
+.clear {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clear button {
+  flex: 100%;
+  max-width: 100%;
+  background-color: var(--dark);
+}
